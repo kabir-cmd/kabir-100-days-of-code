@@ -11,13 +11,13 @@
 int main() {
     int i, j;
 
-    // Print pattern
+    
     for(i = 5; i >= 1; i--) {
-        // Print leading spaces
+        
         for(j = 5; j > i; j--) {
-            printf("  "); // 2 spaces for indentation
+            printf("  "); 
         }
-        // Print stars
+        
         for(j = 1; j <= i; j++) {
             printf("*");
         }
@@ -26,3 +26,4 @@ int main() {
 
     return 0;
 }
+
