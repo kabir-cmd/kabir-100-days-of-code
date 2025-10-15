@@ -5,12 +5,11 @@
 int main() {
     char str[1000];
     
-    // Read string including spaces
     fgets(str, sizeof(str), stdin);
 
     int i = 0;
     while (str[i] != '\0' && str[i] != '\n') {
-        // If character is lowercase, convert to uppercase
+        
         if (str[i] >= 'a' && str[i] <= 'z') {
             str[i] = str[i] - ('a' - 'A');
         }
@@ -21,3 +20,4 @@ int main() {
 
     return 0;
 }
+
